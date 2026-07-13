@@ -1,4 +1,4 @@
 interface:
-  display_name: "Skill Fix FDH"
+  display_name: "Skill Fix"
   short_description: "修复 Windows Codex Skill 无法显示或加载的问题"
-  default_prompt: "使用 $skill-fix-fdh 检查并修复 Windows Codex Skill 的安装、编码、Frontmatter、注册和加载问题。"
+  default_prompt: "使用 $skill-fix 检查并修复 Windows Codex Skill 的安装、编码、Frontmatter、注册和加载问题。"

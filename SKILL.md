@@ -1,9 +1,9 @@
 ---
-name: skill-fix-fdh
+name: skill-fix
 description: "诊断并修复 Windows 上 Codex 自定义 Skill 已复制但不显示、无法触发或加载失败的问题。用于检查 UTF-8 BOM、YAML Frontmatter、agents/openai.yaml 注册元数据、安装路径、目录名、缓存和客户端重载。"
 ---
 
-# Skill Fix FDH
+# Skill Fix
 
 ## 目标
 

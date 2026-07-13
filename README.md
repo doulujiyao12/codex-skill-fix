@@ -1,4 +1,4 @@
-# Skill Fix FDH
+# Skill Fix
 
 一个用于诊断和修复 Windows 上 Codex 自定义 Skill 无法显示、无法触发或加载失败问题的 Skill。
 
@@ -15,7 +15,7 @@
 ## Windows 安装
 
 ```powershell
-git clone https://github.com/doulujiyao12/codex-skill-fix.git "$env:USERPROFILE\.codex\skills\skill-fix-fdh"
+git clone https://github.com/doulujiyao12/codex-skill-fix.git "$env:USERPROFILE\.codex\skills\skill-fix"
 ```
 
 安装后完全退出并重新启动 Codex，然后新建任务。
@@ -25,10 +25,9 @@ git clone https://github.com/doulujiyao12/codex-skill-fix.git "$env:USERPROFILE\
 在 Codex 中输入：
 
 ```text
-使用 $skill-fix-fdh 检查这个 Skill 为什么没有显示。
+使用 $skill-fix 检查这个 Skill 为什么没有显示。
 ```
 
 ## 关键验证
 
 `SKILL.md` 必须以十六进制字节 `2D 2D 2D` 开始，而不是带 BOM 的 `EF BB BF`。
-
